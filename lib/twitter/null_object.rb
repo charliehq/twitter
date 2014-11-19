@@ -40,5 +40,9 @@ module Twitter
     def nil?
       true
     end
+
+    def presence
+      nil
+    end
   end
 end
